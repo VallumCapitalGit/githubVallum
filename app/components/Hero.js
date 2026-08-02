@@ -1,0 +1,24 @@
+const Hero = () => (
+  <section className="hero">
+  <div className="container">
+    <div className="hero-grid">
+      <div className="hero-content">
+        <div className="hero-badge"><span className="dot"></span>SEBI Registered Portfolio Manager</div>
+        <h1>Invest With <span className="accent">Discipline.</span><br/>Build Wealth That Endures.</h1>
+        <p className="hero-sub">A research-driven PMS built on GARP, cycle awareness, and risk discipline — designed for HNIs, NRIs, and Family Offices who value clarity over speculation.</p>
+        <div className="hero-ctas mb-5">
+          <a className="btn btn-indigo" href="/contact-us" aria-label="Contact us">Contact Us <span className="arrow">→</span></a>
+          <a className="btn btn-ghost" href="/about-us" aria-label="About Us">About Us</a>
+        </div>
+      </div>
+      <div className="hero-visual">
+        <div className="hero-img-wrapper">
+          <img src="https://badmin.vallum.in/img/uploads/media/1779788560.webp?w=600&h=435&fit=crop&q=80" alt="Vallum Capital - Disciplined investing approach"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  );
+  
+  export default Hero;
