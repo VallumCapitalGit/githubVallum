@@ -68,7 +68,7 @@ export default function Header({ settingsData }) {
         .filter(({ key }) => siteSettings?.[key])
         .map(({ label, key }) => ({ label, link: basePath + siteSettings[key] })),
       { label: "PMS Calculator", link: "https://vallum.in/pms-calculator" },
-      { label: "List of Empanelled Distributors", link: "https://badmin.vallum.in/img/uploads/settings/Vallum_List_of_Empanelled_Distributors_Landscape.pdf" },
+      { label: "List of Empanelled Distributors", link: "https://badmin.vallum.in/img/Vallum_List_of_Empanelled_Distributors_Landscape.pdf" },
     ];
 
     return [
