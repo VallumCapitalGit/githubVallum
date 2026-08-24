@@ -5917,7 +5917,7 @@ body .vertical-centered-box {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 20px;
+    padding: 6px 20px;
     font-family: var(--font-body);
     font-size: 14px;
     font-weight: 400;
