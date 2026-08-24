@@ -42,7 +42,6 @@ const INVESTOR_DOC_KEYS = [
   { label: "FAQ on SEBI Validated UPI ID", key: "faq_upi" },
   { label: "SEBI Master Circular for Online Resolution of Disputes", key: "sebi_circular" },
   { label: "Centralised Reporting Mechanism for Demised Investor", key: "demised_investor" },
-  { label: "List of Empanelled Distributors", key: "demised_investor" },
 ];
 
 export default function Header({ settingsData }) {
